@@ -30,12 +30,7 @@ development it amounts to a list of lists that pretty much follows the relations
 backend. Since the data model was designed following the real life pattern the frontend app
 becomes just a visual representation of that.  
   
-The Android application has a single activity that acts as a common space for a single
-fragment container that is home for the rest of the UI, static service context that can be used by
-the rest of the app, and central view model data cache which acts to keep API calls to a
-minimum. In addition to the fragments dedicated to displaying the model objects I also have an
-admin fragment which allows for input of an API key and a search fragment from which the user
-can search for yards, plants, and animals by name.  
+The Android application has a single activity that acts as a common space for a fragment container that is home for the UI fragments and central view model data cache which acts to keep API calls to a minimum. In addition to the fragments dedicated to displaying the model objects I also have an admin fragment which allows for input of an API key and a search fragment from which the user can search for yards, plants, and animals by name. 
   
 ## Screenshots
 
